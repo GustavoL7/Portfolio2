@@ -1,15 +1,16 @@
-import "./styles/components/app.sass"
+import MainContent from "./components/MainContent";
+import Sidebar from "./components/Sidebar";
+
+import "./styles/components/app.sass";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div id="portfolio">
-      <h1>Gustavo Lucas</h1>
-      <Sidebar /> 
+      <h1>Matheus Battisti</h1>
+      <Sidebar />
       <MainContent />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
