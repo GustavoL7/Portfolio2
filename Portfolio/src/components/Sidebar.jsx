@@ -1,14 +1,14 @@
 import SocialNetworkContainer from "./SocialNetworkContainer";
-import InformationContainer from "./InformationContainer";
+import InformationContainer from "./informationContainer";
 
-import Avatar from "../img/eu.jpg";
+import Avatar from "../img/eu.png";
 
 import "../styles/components/sidebar.sass";
 
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Matheus Battisti" />
+      <img src={Avatar} alt="Gustavo Lucas" />
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
